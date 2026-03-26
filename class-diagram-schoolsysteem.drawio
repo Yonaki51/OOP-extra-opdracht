@@ -5,7 +5,7 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="S7gM96lw-SPA_g0RYKWa-1" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="schoolpas" vertex="1">
-          <mxGeometry height="380" width="180" x="110" y="100" as="geometry" />
+          <mxGeometry height="380" width="180" x="30" y="70" as="geometry" />
         </mxCell>
         <mxCell id="S7gM96lw-SPA_g0RYKWa-2" parent="S7gM96lw-SPA_g0RYKWa-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="- ID String&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;- naam: String&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;- saldo: double&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;- geldig: boolean&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;- heeftLiftToegang: boolean&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;- isDocent&lt;/div&gt;" vertex="1">
           <mxGeometry height="204" width="180" y="26" as="geometry" />
@@ -17,7 +17,7 @@
           <mxGeometry height="142" width="180" y="238" as="geometry" />
         </mxCell>
         <mxCell id="iBJfHz9XT9wlfn11xLX6-1" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="deurlezer" vertex="1">
-          <mxGeometry height="60" width="200" x="450" y="100" as="geometry" />
+          <mxGeometry height="60" width="200" x="560" y="70" as="geometry" />
         </mxCell>
         <mxCell id="iBJfHz9XT9wlfn11xLX6-3" parent="iBJfHz9XT9wlfn11xLX6-1" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
           <mxGeometry height="8" width="200" y="26" as="geometry" />
@@ -26,7 +26,7 @@
           <mxGeometry height="26" width="200" y="34" as="geometry" />
         </mxCell>
         <mxCell id="iBJfHz9XT9wlfn11xLX6-5" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="koffiezetapparaat&amp;nbsp;" vertex="1">
-          <mxGeometry height="86" width="210" x="450" y="220" as="geometry" />
+          <mxGeometry height="86" width="210" x="560" y="180" as="geometry" />
         </mxCell>
         <mxCell id="iBJfHz9XT9wlfn11xLX6-6" parent="iBJfHz9XT9wlfn11xLX6-5" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="- koffieprijs: double" vertex="1">
           <mxGeometry height="26" width="210" y="26" as="geometry" />
@@ -38,16 +38,25 @@
           <mxGeometry height="26" width="210" y="60" as="geometry" />
         </mxCell>
         <mxCell id="iBJfHz9XT9wlfn11xLX6-9" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="printer" vertex="1">
-          <mxGeometry height="150" width="160" x="450" y="360" as="geometry" />
+          <mxGeometry height="150" width="210" x="560" y="310" as="geometry" />
         </mxCell>
         <mxCell id="iBJfHz9XT9wlfn11xLX6-10" parent="iBJfHz9XT9wlfn11xLX6-9" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;div&gt;- printPrijs: double&lt;/div&gt;&lt;div&gt;- kopieerPrijs: double&lt;/div&gt;" vertex="1">
-          <mxGeometry height="44" width="160" y="26" as="geometry" />
+          <mxGeometry height="44" width="210" y="26" as="geometry" />
         </mxCell>
         <mxCell id="iBJfHz9XT9wlfn11xLX6-11" parent="iBJfHz9XT9wlfn11xLX6-9" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
-          <mxGeometry height="8" width="160" y="70" as="geometry" />
+          <mxGeometry height="8" width="210" y="70" as="geometry" />
         </mxCell>
         <mxCell id="iBJfHz9XT9wlfn11xLX6-12" parent="iBJfHz9XT9wlfn11xLX6-9" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;div&gt;+ printen(pas: Schoolpas): void&lt;/div&gt;&lt;div&gt;+ kopieren(pas: Schoolpas): void&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="72" width="160" y="78" as="geometry" />
+          <mxGeometry height="72" width="210" y="78" as="geometry" />
+        </mxCell>
+        <mxCell id="iBJfHz9XT9wlfn11xLX6-17" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="app" vertex="1">
+          <mxGeometry height="90" width="246.5" x="253.5" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="iBJfHz9XT9wlfn11xLX6-19" parent="iBJfHz9XT9wlfn11xLX6-17" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="246.5" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="iBJfHz9XT9wlfn11xLX6-20" parent="iBJfHz9XT9wlfn11xLX6-17" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ saldoOpwaarderen(pas: Schoolpas, bedrag: double): void" vertex="1">
+          <mxGeometry height="56" width="246.5" y="34" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
