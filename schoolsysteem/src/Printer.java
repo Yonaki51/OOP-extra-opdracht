@@ -2,7 +2,7 @@ public class Printer {
     private double printPrijs;
     private double kopieerPrijs;
 
-    public Printer(double printPrijs, double kopieerPrijs){
+    public Printer(double printPrijs, double kopieerPrijs) {
         this.printPrijs = printPrijs;
         this.kopieerPrijs = kopieerPrijs;
     }
@@ -13,8 +13,7 @@ public class Printer {
                 if (pas.getSaldo() < printPrijs) {
                     System.out.println("je hebt niet genoeg saldo.");
 
-                }
-                else{
+                } else {
                     pas.setSaldo(pas.getSaldo() - printPrijs);
                     System.out.println("je document wordt geprint.");
                 }
@@ -22,21 +21,19 @@ public class Printer {
             } else {
                 System.out.println("je document wordt geprint.");
             }
-        }
-        else{
+        } else {
             System.out.println("je pas is niet geldig");
         }
 
     }
 
-        public void kopieren(Schoolpas pas) {
+    public void kopieren(Schoolpas pas) {
         if (pas.isGeldig()) {
             if (!pas.isDocent()) {
                 if (pas.getSaldo() < kopieerPrijs) {
                     System.out.println("je hebt niet genoeg saldo.");
 
-                }
-                else{
+                } else {
                     pas.setSaldo(pas.getSaldo() - kopieerPrijs);
                     System.out.println("je document wordt gekopieerd.");
                 }
@@ -44,12 +41,10 @@ public class Printer {
             } else {
                 System.out.println("je document wordt gekopieerd.");
             }
-        }
-        else{
+        } else {
             System.out.println("je pas is niet geldig");
         }
 
     }
-
 
 }
